@@ -1,0 +1,98 @@
+#articulos .row{
+  margin-bottom: 0;
+}
+#carousel-example-generic{
+  margin-top: 50px;
+}
+#div-logo-mobile{
+  width: 80%;
+  padding: 1em;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+}
+#experiencias .col-xs-12 >h2{
+  margin-bottom: 15px;
+}
+#experiencias>div{
+  margin-bottom:15px;
+}
+#experiencias-h2{
+  font-size: 22px;
+}
+#logos{
+  padding: 15px;
+}
+#logo{
+  display: none;
+}
+#img-logo-mobile{
+  margin: auto;
+  width: 70%;
+}
+#scrollspy .nav>li>a{
+  font-size: 11px!important;
+}
+#side-menu{
+  margin-bottom: 30px;
+}
+.breadcrumb{
+  margin-top: 0px;
+  padding-top: 60px;
+}
+  .breadcrumb>h1{
+    font-size: 61px;
+  }
+  .breadcrumb label{
+    line-height: 50px;
+    font-size: 40px;
+  }
+.btn-footer{
+  width: 100%;
+}
+.captionDate>p{
+  font-size: 14px;
+}
+.caption>h2{
+  text-align: left;
+}
+.examenesIcons div {
+    text-align: center;
+}
+.fuente-blanca{
+  margin-top: 30px;
+}
+.fuente-azul-oscuro{
+  margin-top: 30px;
+}
+.icons{
+  border: 0px;
+}
+.navbar-brand img{
+  width: 80px;
+}
+.note{
+  margin-bottom: 15px;
+}
+.pag{
+  margin-top:0px!important;
+}
+.pag-image{
+  margin-top: 30px;
+}
+.row-note{
+  width: 80%;
+  margin: auto;
+}
+.sheet{
+  padding-top: 40px;
+}
+.text-footer{
+  width: 100%;
+}
