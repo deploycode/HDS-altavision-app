@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: altavisionApp
+        psr4_prefix: altavisionApp
+        src_path: app
