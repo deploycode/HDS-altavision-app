@@ -36,6 +36,7 @@
             {!! Form::button('<span class="glyphicon glyphicon-search"></span>', ['id'=>'btn_search','type' => 'submit', 'class'=>' form-control btn btn-primary']) !!}
           </div>
         </div>
+
       {!!Form::close()!!}
       {{-- FIRSTS MENU --}}
       <div class="list-group">

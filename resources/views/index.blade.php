@@ -30,8 +30,12 @@
       <div class="col-xs-12 col-sm-6 col-sm-pull-6 pag">
         <h1>Frecuencia recomendada de visita al oftalmólogo</h1>
         <p>
-          Contamos con asesoría y consulta de 360° en salud visual para
-          entregar resultados confiables y completos sobre el estado de su visión.
+          Nuestra clínica oftalmológica Alta Visión ubicada en Bogotá, cuenta con la asesoría y consulta de 360° en salud visual,
+          para entregar resultados  confiables y completos sobre el estado de su visión. <br> <br>
+          -Valoración oftalmológica.<br>
+          -Centro oftalmológico de diagnóstico.<br>
+          -Educación en salud visual.<br>
+          -Cirugías oftalmológicas.<br>
         </p>
         <a href="{{asset('/frecuencia-recomendada/frecuencia-recomendada')}}" class="btn boton">Ver más</a>
       </div>
@@ -46,9 +50,10 @@
       <div class="col-xs-12 col-sm-6 pag ">
         <h1>Enfermedades <br> Visuales</h1>
         <p>
-          Nuestros ojos están propensos a numerosas enfermedades que pueden presentarse
-          si ningún síntoma. Conozca cómo prevenir y tratar estas enfermedades para tener
-          una visión óptima y saludable toda la vida.
+          Los ojos están propensos a numerosas enfermedades que pueden presentarse si ningún síntoma.
+          Nuestros especialistas en oftalmología, muestran cómo prevenir y tratar estas enfermedades
+          visuales para tener una visión óptima y saludable toda la vida. <br><br>
+          Glaucoma, Catarata, Estrabismo, Hipermetropía, Astigmatismo, Ojo Seco, Degeneración Macular, Ambliopía
         </p>
         <a href="{{asset('/enfermedades-visuales/ambliopia')}}" class="boton btn">Ver más</a>
       </div>
@@ -63,7 +68,10 @@
       <div class="col-xs-12 col-sm-6 col-sm-pull-6 pag ">
         <h1>Enfermedades <br> Sistémicas</h1>
         <p>
-          Las enfermedades que afectan todo el cuerpo como la diabetes, la hipertensión arterial, la artritis reumatoide, el hipotiroidismo, lupus entre otras, afectan de manera degenerativa nuestra visión. La prevención y el diagnóstico oportuno, evitan que estas enfermedades nos lleven a perder la visión de manera irreversible.
+          Las enfermedades que afectan todo el cuerpo como la diabetes, la hipertensión arterial,
+          la artritis reumatoide, el hipotiroidismo, lupus entre otras, afectan de manera degenerativa
+          nuestra visión. La prevención y el diagnóstico oportuno, evitan que estas enfermedades nos
+          lleven a perder la visión de manera irreversible.
         </p>
         <a href="{{asset('/enfermedades-sistemicas/enfermedades-que-afectan-los-ojos')}}" class="btn boton ">Ver más</a>
       </div>
@@ -103,7 +111,12 @@
       <div class="col-xs-12 col-sm-6 pag text-center" >
         <h1>Exámenes</h1>
         <p>
-          Contamos con tecnología de punta para lograr resultados precisos y de alta calidad.
+          Contamos con tecnología de punta para lograr resultados precisos y de alta calidad: <br><br>
+          -OCT de alta resolución optovue <br>
+          -Pentacam  <br>
+          -Perímetro Humphrey. <br>
+          -Regla biométrica Lenstar <br>
+
         </p>
         <div class="examenes-icons">
           <div class="col-xs-6">
@@ -146,7 +159,7 @@
       <div class="col-xs-12 col-sm-6 col-sm-pull-6 pag">
         <h1>Cirugías y <br> tratamientos</h1>
         <p style="text-align:center!important">
-          Sus ojos en manos expertas.
+          Procedimientos oftalmológicos, cirugías láser Lasik, tratamientos y acompañamiento profesional durante el proceso. Sus ojos en manos de expertos
         </p>
         <a href="{!!URL::to('/cirugias-y-tratamientos/como-prepararse-para-una-cirugia')!!}" id="btnCirugias" class="btn boton">Ver más</a>
       </div>
