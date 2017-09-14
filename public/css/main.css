@@ -191,7 +191,7 @@
     }
 /*////////////////////////////////////////////////////////*/
 #post_content p, span{
-  font-family: "Verdana"!important;
+  font-family: "Verdana";
   font-size: 14px!important;
 }
   #post_content>h2>span{
