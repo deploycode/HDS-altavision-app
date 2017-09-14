@@ -191,9 +191,15 @@
     }
 /*////////////////////////////////////////////////////////*/
 #post_content p, span{
-  font-family: "Verdana";
-  font-size: 14px;
+  font-family: "Verdana"!important;
+  font-size: 14px!important;
 }
+  #post_content h2 span{
+    font-family: "Verdana";
+    font-size: 18px;
+    color: #008bd2!important;
+    font-weight: bold;
+  }
   #subir{
     margin-top: -45px;
   }
