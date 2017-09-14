@@ -42,6 +42,9 @@
 #side-menu{
   margin-bottom: 30px;
 }
+#internal-blog>article>h1{
+  font-size: 20px;
+}
 .breadcrumb{
   margin-top: 0px;
   padding-top: 60px;
@@ -67,9 +70,11 @@
 }
 .fuente-blanca{
   margin-top: 30px;
+  font-size: 40px;
 }
 .fuente-azul-oscuro{
   margin-top: 30px;
+  font-size: 40px;
 }
 .icons{
   border: 0px;

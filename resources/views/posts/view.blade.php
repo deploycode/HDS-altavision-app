@@ -59,9 +59,13 @@
               <a href="#"><i class="">{!!$menu->name!!}</i><span class="fa arrow"></span></a>
               <ul class="nav nav-second-level">
                 @foreach ($secondPosts as $poste)
-                  @if ($menu->id == $poste->second_menu_id)
+                  @if ($menu->id == $poste->second_menu_id )
                     <li>
-                      <a href="{{ URL::to($poste->firstMenu->slug, $poste->slug) }}"><i class=''></i> {!!$poste->title!!}</a>
+                      @if ($poste->id != $post->id)
+                        <a  href="{{ URL::to($poste->firstMenu->slug, $poste->slug) }}" ><i class=''></i> {!!$poste->title!!}</a>
+                      @else
+                        <span class="active">{!!$poste->title!!}</span>
+                      @endif
                     </li>
                   @endif
                 @endforeach
