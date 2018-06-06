@@ -12,8 +12,12 @@
           <td>
             {!!Form::open(['route'=>['firstmenu.destroy',$firstmenu->id], 'method'=>'DELETE'])!!}
             <div class="form-group">
-              <a href="{{ route('firstmenu.edit', $firstmenu->id) }}"><i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
-              {!! Form::button('<span class="glyphicon glyphicon-trash"></span>', ['type' => 'submit', 'class'=>'btn btn-danger']) !!}
+              <a href="{{ route('firstmenu.edit', $firstmenu->id) }}" onclick="
+                if (confirm('¿Esta seguro de eliminar este elemento?')){
+                    document.getElementById('delete_form').submit();
+               }">
+            <i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
+              {!! Form::button('<span class="glyphicon glyphicon-trash"></span>', ['class'=>'btn btn-danger']) !!}
             </div>
             {!!Form::close()!!}
           </td>
