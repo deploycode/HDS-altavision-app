@@ -10,7 +10,7 @@
         <tbody>
           <td>{{$firstmenu->name}}</td>
           <td>
-            {!!Form::open(['route'=>['firstmenu.destroy',$firstmenu->id], 'method'=>'DELETE'])!!}
+            {!!Form::open(['route'=>['firstmenu.destroy',$firstmenu->id], 'method'=>'DELETE' ,'id'=>'delete_form'])!!}
             <div class="form-group">
               <a href="{{ route('firstmenu.edit', $firstmenu->id) }}">
             <i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
