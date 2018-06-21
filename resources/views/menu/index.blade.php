@@ -13,7 +13,12 @@
               {!!Form::open(['route'=>['firstmenu.destroy',$firstmenu->id], 'method'=>'DELETE'])!!}
               <div class="form-group">
                   <a href="{{ route('firstmenu.edit', $firstmenu->id) }}"><i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
-                  {!! Form::button('<span class="glyphicon glyphicon-trash"></span>', ['type' => 'submit', 'class'=>'btn btn-danger']) !!}
+                  {!! Form::button('<span class="glyphicon glyphicon-trash"></span>',
+                    [
+                        'type' => 'button',
+                        'class'=>'btn btn-danger',
+                        'onclick' => 'if(confirm("¿Realmente desea eliminar este elemento? ")) {  $(form).submit(); }',
+                    ]) !!}
               </div>
               {!!Form::close()!!}
           </td>
@@ -33,10 +38,14 @@
           <td>{{$secondmenu->firstmenu->name}}</td>
           <td>
             {!!Form::open(['route'=>['secondmenu.destroy',$secondmenu->id], 'method'=>'DELETE'])!!}
-            <div class="form-group">
               <a href="{{ route('secondmenu.edit', $secondmenu->id) }}"><i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
-              {!! Form::button('<span class="glyphicon glyphicon-trash"></span>', ['type' => 'submit', 'class'=>'btn btn-danger']) !!}
-            </div>
+              <div class="form-group">
+                  {!! Form::button('<span class="glyphicon glyphicon-trash"></span>',
+                  [
+                      'type' => 'button',
+                      'class'=>'btn btn-danger',
+                      'onclick' => 'if(confirm("¿Realmente desea eliminar este elemento? ")) {  $(form).submit(); }',
+                  ]) !!}                </div>
             {!!Form::close()!!}
           </td>
         </tbody>
@@ -59,8 +68,12 @@
             {!!Form::open(['route'=>['thirdmenu.destroy',$thirdmenu->id], 'method'=>'DELETE'])!!}
             <div class="form-group">
               <a href="{{ route('thirdmenu.edit', $thirdmenu->id) }}"><i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
-              {!! Form::button('<span class="glyphicon glyphicon-trash"></span>', ['type' => 'submit', 'class'=>'btn btn-danger']) !!}
-            </div>
+                {!! Form::button('<span class="glyphicon glyphicon-trash"></span>',
+                [
+                    'type' => 'button',
+                    'class'=>'btn btn-danger',
+                    'onclick' => 'if(confirm("¿Realmente desea eliminar este elemento? ")) {  $(form).submit(); }',
+                ]) !!}            </div>
             {!!Form::close()!!}
           </td>
         </tbody>
