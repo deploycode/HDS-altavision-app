@@ -21,7 +21,12 @@
             <div class="form-group">
               <a href="{{ route('posts.show', $post->slug) }}"><i class="btn btn-success glyphicon glyphicon-eye-open"></i></a>
               <a href="{{ route('posts.edit', $post->id) }}"><i class="btn btn-primary glyphicon glyphicon-pencil"></i></a>
-              {!! Form::button('<span class="glyphicon glyphicon-trash"></span>', ['type' => 'submit', 'class'=>'btn btn-danger']) !!}
+              {!! Form::button('<span class="glyphicon glyphicon-trash"></span>',
+                [
+                    'type' => 'button',
+                    'class'=>'btn btn-danger',
+                    'onclick' => 'if(confirm("¿Realmente desea eliminar este elemento? ")) {  $(form).submit(); }',
+                ]) !!}
             </div>
           {!!Form::close()!!}
         </td>
